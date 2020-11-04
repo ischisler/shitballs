@@ -126,7 +126,7 @@ Resources:
                       Configuration:
                         Owner: !Ref GithubUser
                         Repo: !Ref GithubRepo
-                        Branch: master
+                        Branch: main
                         OAuthToken: !Ref GithubToken
                       OutputArtifacts:
                         - Name: SourceCodeAsZip
